@@ -10,7 +10,7 @@ public class Deck {
 
     // ii. Methods
 
-    // 3. In the constructor, when a new Deck is instantiated, the Cards field should be populated with the standard 52 cards.
+    // 3. In the constructor, when a new Deck is instantiated, the Cards field is populated with the standard 52 cards.
     Deck() {
         String[] suits = {"Spades", "Hearts", "Clubs", "Diamonds"};
         String[] numbers = {"Two", "Three", "Four", "Five", "Six", "Seven",

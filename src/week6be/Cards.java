@@ -38,8 +38,8 @@ public class Cards {
         this.suit = suit;
     }
 
-    // Helper method to set the name of the card based on its value and suit
-    private void setName(int value, String suit) {
+    //  ranges of the card values from 2-14, also print out the info about the card
+    private void setName(int value, String suit) { // describes each card 
         switch (value) {
             case 2:
                 name = "Two";
